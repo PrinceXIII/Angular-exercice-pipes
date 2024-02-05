@@ -1,0 +1,10 @@
+
+<div class="container">
+  <section>
+    <h1>Articles sur le dévéloppement</h1>
+
+    <ul>
+      <li *ngFor="let titre of titres | recherche : 'développement' ">{{titre}}</li>
+    </ul>
+  </section>
+</div>
